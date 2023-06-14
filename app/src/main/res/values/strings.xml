@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="ballsgame">
+BallsGame
+</string>
+    <string name="play">
+Play
+</string>
+    <string name="next">
+Next
+</string>
+    <string name="get_code">
+Get code\n
+</string>
+    <string name="some_id">
+</string>
+    <string name="enter_your_">
+Enter your code
+</string>
+    <string name="music">
+Music
+</string>
+    <string name="rotate">
+Rotate
+</string>
+    <string name="choose_loca">
+Choose location
+</string>
+    <string name="choose_play">
+Choose player
+</string>
+    <string name="some_id1">
+1
+</string>
+    <string name="some_id2">
+2
+</string>
+    <string name="choose_play1">
+Choose player
+</string>
+    <string name="some_id3">
+1
+</string>
+    <string name="some_id4">
+2
+</string>
+    <string name="your_result">
+Your result
+</string>
+    <string name="some_id22">
+35
+</string>
+    <string name="to_start">
+To start
+</string>
+    <string name="choose_loca2">
+Choose location
+</string>
+    <string name="get_hole">
+Get hole
+</string>
+    <string name="hockey">
+Hockey
+</string>
+    <string name="play2">
+No connect
+</string>
+    <string name="some_id225">
+Restart app for play
+</string>
+    <string name="choose_team">
+Choose part
+</string>
+    <string name="choose_place">
+Choose place
+</string>
+
+
+
+</resources>

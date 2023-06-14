@@ -1,0 +1,83 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/android_lar"
+    >
+
+    <View
+        android:id="@+id/second_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/photo_2023"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/choose_play1"
+        android:layout_width="263dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/choose_play1"
+        android:textAppearance="@style/choose_play1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="@+id/second_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <View
+        android:id="@+id/rectangle_20"
+        android:layout_width="144dp"
+        android:layout_height="399dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.683" />
+
+    <View
+        android:id="@+id/rectangle_21"
+        android:layout_width="114dp"
+        android:layout_height="163dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_21"
+        android:onClick="u"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_20"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_20"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_20"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_20"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <View
+        android:id="@+id/rectangle_22"
+        android:layout_width="114dp"
+        android:layout_height="163dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_22"
+        android:onClick="d"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_20"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_20"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_20"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_20"
+        app:layout_constraintVertical_bias="0.872" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
